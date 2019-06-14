@@ -1,9 +1,4 @@
 public class Sort {
-    public Sort(int[] elementList) {
-        this.elementList = elementList;
-    }
-    public int elementList[];
-
     public void bubbleSort(int[] bubbles) {
         int swap;
         for (int i = 0; i < bubbles.length; i++) {
